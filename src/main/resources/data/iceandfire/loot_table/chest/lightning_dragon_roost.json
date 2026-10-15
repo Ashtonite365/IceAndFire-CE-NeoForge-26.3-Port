@@ -1,0 +1,303 @@
+{
+  "pools": [
+    {
+      "name": "lightning_dragon_cave_female",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 7,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 20,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 10
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 20,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 10
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 10,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chain",
+          "weight": 20,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:manuscript",
+          "weight": 20,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_ingot",
+          "weight": 10,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 10
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_nugget",
+          "weight": 15,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 16
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 3,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cobweb",
+          "weight": 15,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_sword",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_helmet",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_chestplate",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_leggings",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_boots",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:crackled_gravel",
+          "weight": 7,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 1,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint",
+          "weight": 16,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:cannoli",
+          "weight": 1,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

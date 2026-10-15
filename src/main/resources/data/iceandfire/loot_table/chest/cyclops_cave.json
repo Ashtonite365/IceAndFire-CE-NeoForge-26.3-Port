@@ -1,0 +1,143 @@
+{
+  "pools": [
+    {
+      "name": "cyclops_cave",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:white_wool",
+          "weight": 30,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 10
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:manuscript",
+          "weight": 20,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:shears",
+          "weight": 10,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 10
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mutton",
+          "weight": 20,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 16
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cooked_mutton",
+          "weight": 10,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cobweb",
+          "weight": 15,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wheat",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 5,
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+IaF mixin audit vs minecraft-patched-26.3.0.76-merged.jar (+neoforge universal, libs/) at 2e1fdc98
+== h6-mixaudit2 (method-level)
+mixins	BlockPropertiesMixin	net.minecraft.world.level.block.state.BlockBehaviour$Properties	PASS	
+mixins	ChickenMixin	net.minecraft.world.entity.animal.chicken.Chicken	PASS	
+mixins	EntityIdAccessor	net.minecraft.world.entity.Entity	PASS	
+mixins	ItemPropertiesMixin	net.minecraft.world.item.Item$Properties	PASS	
+mixins	LivingEntityAccessor	net.minecraft.world.entity.LivingEntity	PASS	
+mixins	LivingEntityMixin	net.minecraft.world.entity.LivingEntity	FAIL	method desc swing(Lnet/minecraft/world/InteractionHand;Z)V
+mixins	MobMixin	net.minecraft.world.entity.Mob	PASS	
+mixins	ServerLevelMultipartAccessor	net.minecraft.server.level.ServerLevel	PASS	
+mixins	WorldGenRegionMixin	net.minecraft.server.level.WorldGenRegion	PASS	
+client	client.EntityHitboxDebugRendererMixin	net.minecraft.client.renderer.debug.EntityHitboxDebugRenderer	PASS	
+client	PanoramaRendererMixin	net.minecraft.client.renderer.Panorama	PASS	
+client	TitleScreenMixin	net.minecraft.client.gui.screens.TitleScreen	PASS	
+
+== mixin_body_audit
+checked 3 INVOKE/FIELD/NEW @At targets; 0 not found in method bodies
+
+
+== mixin_local_audit
+checked 9 injector/method pairs; 0 problems, 0 notes
+
+
+== Findings
+1 FAIL, 11 PASS (method level); 0 body-target failures (3 checked); 0 local/ordinal/lambda problems (9 pairs).
+FAIL mixin/LivingEntityMixin.java:23 onSwingHand (owner H5: mixin/**) - target swing(InteractionHand,Z)V no longer exists; 26.3 is
+  public boolean swing(InteractionHand, SwingAnimation, boolean). Without a fix the mixin fails to apply (hard crash at load with
+  defaultRequire=1, otherwise ghost-sword summon silently dead). Proposed fix:
+    @Inject(method = "swing(Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/item/component/SwingAnimation;Z)Z", at = @At("HEAD"))
+    private void onSwingHand(InteractionHand hand, SwingAnimation animation, boolean updateSelf, CallbackInfoReturnable<Boolean> ci)
+No mixins are unowned and none are H3-owned, so no fixes were made here.

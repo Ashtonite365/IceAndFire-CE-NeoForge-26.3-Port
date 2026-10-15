@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "silver_pile",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 2,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "1"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 4,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "2"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 6,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "3"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 8,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "4"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 10,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "5"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 12,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "6"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 14,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "7"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_nugget",
+          "modifier": [
+            {
+              "count": 16,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "iceandfire:silver_pile",
+            "state": {
+              "layers": "8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

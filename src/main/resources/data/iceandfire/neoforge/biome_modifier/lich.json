@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#iceandfire:structure_gen/mausoleum",
+  "spawners": [
+    {
+      "type": "iceandfire:dread_lich",
+      "count": 1,
+      "weight": 4
+    }
+  ]
+}

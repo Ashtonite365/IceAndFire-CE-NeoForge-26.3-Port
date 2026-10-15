@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": {
+      "translate": "resourcePack.iceandfire.legacy.description"
+    },
+    "max_format": 97,
+    "min_format": 97
+  }
+}
